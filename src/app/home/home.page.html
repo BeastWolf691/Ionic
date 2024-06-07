@@ -1,20 +1,58 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content>
+  <div class="filter"></div>
+  <header>
+   
+    <ion-icon name="game-controller-outline"></ion-icon>
+    <ion-searchbar placeholder="Recherche" search-icon="none" ></ion-searchbar>
+   
+  </header>
+  <ion-img src="../../../assets/images/halo.png" />
+ 
+  <div class="container">
+    <p>
+      <ion-text>HALO</ion-text><br>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star-half-outline"></ion-icon><br>4;5/5
+     
+    </p>
+    <p class="paragraphe">Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Amet, delectus sit atque adipisci laboriosam temporib
+      us ex debitis dolor sint aperiam, aut dicta consequuntur d
+      eleniti perferendis veritatis dolore! V
+      itae, beatae libero.
+    </p>
   </div>
 </ion-content>
+  <ion-footer>
+   <!--  <div class="content" >
+      <ion-img  src="../../assets/Flamethrower_Fight_GOLD_RGB2b37943f-d26b-4e68-91c5-d381e974fb15_ORIGINAL.jpg" />
+      <span>Title</span>
+    </div>
+    <div class="content" >
+      <ion-img  src="../../assets/Flamethrower_Fight_GOLD_RGB2b37943f-d26b-4e68-91c5-d381e974fb15_ORIGINAL.jpg" />
+      <span>Title</span>
+    </div> <div class="content" >
+      <ion-img  src="../../assets/Flamethrower_Fight_GOLD_RGB2b37943f-d26b-4e68-91c5-d381e974fb15_ORIGINAL.jpg" />
+      <span>Title</span>
+    </div> <div class="content" >
+      <ion-img  src="../../assets/Flamethrower_Fight_GOLD_RGB2b37943f-d26b-4e68-91c5-d381e974fb15_ORIGINAL.jpg" />
+      <span>Title</span>
+    </div> <div class="content" >
+      <ion-img  src="../../assets/Flamethrower_Fight_GOLD_RGB2b37943f-d26b-4e68-91c5-d381e974fb15_ORIGINAL.jpg" />
+      <span>Title</span>
+    </div> <div class="content" >
+      <ion-img  src="../../assets/Flamethrower_Fight_GOLD_RGB2b37943f-d26b-4e68-91c5-d381e974fb15_ORIGINAL.jpg" />
+      <span>Title</span>
+    </div>
+    <div class="content" >
+      <ion-img src="title" />
+      <span>Title</span>
+    </div> -->
+    <app-cards [title]="'Moon Knight'" [image]="'../../../assets/images/image1.jpg'" (click)="navigate('after')"></app-cards>
+    <app-cards [title]="'Obi wan Kenobi'" [image]="'../../../assets/images/image2.jpg'" (click)="navigate('after')"></app-cards>
+    <app-cards [title]="'Moon Knight'" [image]="'../../../assets/images/image1.jpg'" (click)="navigate('after')"></app-cards>
+    <app-cards [title]="'Obi wan Kenobi'" [image]="'../../../assets/images/image2.jpg'" (click)="navigate('after')"></app-cards>
+  </ion-footer>
