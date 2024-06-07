@@ -6,6 +6,7 @@ import { NavController } from '@ionic/angular';
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
 })
+
 export class HomePage {
   selectedImage: string = '../../assets/images/halo.png';
   backgroundImage: string = '../../../assets/images/halo.png'; // Image de fond par défaut
