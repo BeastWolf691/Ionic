@@ -1,0 +1,7 @@
+{
+  "name": "Halo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
