@@ -11,15 +11,6 @@
   font-family: 'audiowideregular';
 }
  
-.filter {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index:1 ;
-}
  
 ion-content {
   position: relative;
@@ -40,7 +31,7 @@ header {
   justify-content: space-between;
  
   ion-icon {
-    padding-top: 25px;
+    padding-top: 16px;
     font-size: 3em;
     color: white;
     padding-left: 20px;
@@ -87,7 +78,10 @@ ion-footer {
   z-index: 42;
   scrollbar-width: none;
  
- 
+.suggestions {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
  /* .content {
     width: 50%;
     color: white;
